@@ -13,5 +13,13 @@ title:  "Title Of Your Post (as seen in the menu)"
 date:   YYYY-MM-DD HH:MM:SS -0500
 categories: category anotherone
 ---</pre>
-3. Add content
-Then, commit and wait a few minutes.
+3. Add content  
+Then, commit and wait a few minutes.  
+Full example (filename is `2017-03-04-added-pizza-to-life.markdown`):<pre>
+---
+layout: post
+title:  "PIZZAAAAA"
+date:   2017-03-04 18:39:36 -0500
+categories: pizza
+---
+So, pizza is yummy. This is an example post.</pre>
