@@ -16,7 +16,7 @@
 #main{
     width: 75%;
     height: 100%;
-    background-color: black;
+    background-color: #222;
     padding: 20px;
     font-family: 'Arvo', serif;
     font-size: 16px;
@@ -68,7 +68,7 @@
 }
 body{
     margin:0;
-    background-color: black;//#276d29;
+    background-color: #222;//#276d29;
     font-family: 'Arvo', serif;
 }
 
