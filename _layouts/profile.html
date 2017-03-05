@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<h2>{{ page.profile }}'s Profile</h2>
+{{ content }}
+<h3>My posts</h3>
+<div class="boxes">
+    {% for post in site.posts %}
+            {% assign author = site.data.authors[post.author] %}
+
+             {% if author.alias == {{page.profile}} %}
+
+        <div>
+
+<!-- Output author details if some exist. -->
+
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><br>
+
+        <i>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <span>
+        <!-- Personal Info. -->
+        • <a href="{{ author.web }}" target="_blank">{{ author.name }} ({{ author.alias }})</a>
+    </span>
+        </i>
+     
+      </div>
+      {% endif %}
+
+    {% endfor %}

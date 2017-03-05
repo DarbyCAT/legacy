@@ -25,7 +25,7 @@ categories: pizza
 author: jm8
 ---
 So, pizza is yummy. This is an example post.</pre>
-##Adding an author
+## Adding an author
 1. Go to `_data/authors.yml`.
 2. Add something like this:<pre>
 namethatwillbeinmetadata:
@@ -39,7 +39,7 @@ jm8:
     name: Josh
     web: /profile/jm8.html
     alias: jm8</pre>
-##Adding a profile page
+## Adding a profile page
 1. Go to `/profile/` and create a page called `username.html`.
 2. Add this metadata:
 <pre>---

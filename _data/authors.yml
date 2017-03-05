@@ -1,8 +1,11 @@
 # Author Details.
-jm8:
+
+#ALIAS MUST BE THE SAME AS PARENT TAG
+jm8: #this
     name: Josh
     web: /profile/jm8.html
-    alias: jm8
-nonuser:
-    name: Anonymous
+    alias: jm8 #must be the same as this
+testuser:
+    name: testuser
     web: /
+    alias: testuser
