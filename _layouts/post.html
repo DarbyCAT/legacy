@@ -4,8 +4,10 @@ layout: default
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header>
+  {% assign author = site.data.authors[page.author] %}
+
     <h1 itemprop="name headline">{{ page.title }}</h1>
-    <p><i><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</i></p>
+    <p><i><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ author.name }} ({{author.alias}})</span></span>{% endif %}</i></p>
   </header>
   <br>
   <div class="post-content" itemprop="articleBody">
