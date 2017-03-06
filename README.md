@@ -1,12 +1,16 @@
 <b>If you ever need any help, feel free to add an issue.</b>
 # How to write pages for DarbyCAT.github.io
-## Editing
-If you have access, just commit to the master. If you don't, make a pull request and we'll merge it after we aprove it.
+## Editing—Using GitHub
+### Step One: Make a GitHub account
+Go to [https://github.com] and sign up for an account.
+### Step Two: Installing Git
+Go [https://git-scm.com/book/en/v2/Getting-Started-Installing-Git](here) and follow the instructions.
 
-No ideas what that means? Go to GitHub's <a href="https://guides.github.com/activities/hello-world/">guide</a> or look up GitHub.
+If you want a GUI, we reccomend [https://desktop.github.com](GitHub desktop) for Mac and Windows, but there are more (https://git-scm.com/downloads/guis)[here.]
+### Step Three: 
 ## Jekyll
-Jekyll is a static site genorator, and it's used for this website. You don't really have to install it or learn it, but if you want to:
-[http://jekyllrb.com/docs/home/](link.)
+Jekyll is a static site genorator, and it's used for this website. You don't really have to install it, but if you want to:
+[http://jekyllrb.com/](link.)
 ## Adding an author
 Before you start writing, you should create an author to use for your posts. Go to `_data/authors.yml` to add yourself.
 You'll add your information in a second, but to explain what everything means:
