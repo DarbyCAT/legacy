@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 <h2>{{ page.profile }}'s Profile</h2>
 {{ content }}
 <h3>My posts</h3>
@@ -19,13 +18,10 @@ layout: default
 
         <i>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-    <span>
-        <!-- Personal Info. -->
-        • <a href="{{ author.web }}" target="_blank">{{ author.name }} ({{ author.alias }})</a>
-    </span>
         </i>
      
       </div>
       {% endif %}
 
     {% endfor %}
+    </div>
