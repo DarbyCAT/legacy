@@ -1,51 +1,52 @@
-# How to develop for DarbyCAT.github.io</h2>
+# How to write pages for DarbyCAT.github.io
+## Editing
+If you have access, just commit to the master. If you don't, make a pull request and we'll merge it after we aprove it.
+
+No ideas what that means? Look up how to use github.
 ## Jekyll
 Jekyll is a static site genorator, and it's used for this website. You don't really have to install it or learn it, but if you want to:
 [http://jekyllrb.com/docs/home/](link.)
-## Creating a post
-1. Add a file to the _posts folder, with the title like `YYYY-MM-DD-title-all-lower-case.markdown`
-2. Add the metadata like this:
- 
-  <pre>
----
-layout: post
-title:  "Title Of Your Post (as seen in the menu)"
-date:   YYYY-MM-DD HH:MM:SS -0500
-categories: category anotherone
-author: author
----</pre>
-3. Add content  
-Then, commit and wait a few minutes.  
-Full example (filename is `2017-03-04-added-pizza-to-life.markdown`):<pre>
----
-layout: post
-title:  "PIZZAAAAA"
-date:   2017-03-04 18:39:36 -0500
-categories: pizza
-author: jm8
----
-So, pizza is yummy. This is an example post.</pre>
 ## Adding an author
-1. Go to `_data/authors.yml`.
-2. Add something like this:<pre>
-namethatwillbeinmetadata:
-    name: Full Name
-    web: /location/of/profile/page.html
-    </pre>or<pre>
-    web: http://website.com/username</pre if you want a social media profile or personal website
-<pre>   alias: username</pre>
-Full example:<pre>
-jm8:
-    name: Josh
-    web: /profile/jm8.html
-    alias: jm8</pre>
-## Adding a profile page
-1. Go to `/profile/` and create a page called `username.html`.
-2. Add this metadata:
-<pre>---
-layout: default
-permalink: /profile/username.html
----</pre>
-3. Add a title like `<h2>username Profile</h2>`
-4. Add whatever profile information you want.
-5. Add it to authors (see Adding an author)
+Before you start writing, you should create an author to use for your posts. Go to `_data/authors.yml` to add yourself.  
+You'll add your information in a second, but to explain what everything means:
+- name is your first name, with proper capitalization, like `George`
+- alias is your username, like `george42`
+If those were the values, it would look like this:
+<pre>
+george42:
+        name: George
+        alias: george42
+</pre>
+Notice that the top line and the alias are the same. <i>That's important.</i> Also, make sure to indent.
+## Making your profile
+Next, you need to create a profile page. Create a file in the `profile` folder called `george42.html` (with george42 replaced by your alias.) Inside, add some metadata. If you were George, you would write:
+<pre>
+---
+layout: profile
+permalink: /profile/george42
+profile: george42
+---
+</pre>
+You would replace any `george42` with your alias. Below that write profile information, such as `42 is the answer to life, the universe, and 21*2`. Now, you can start writing!
+## Writing
+To create a post, go to the folder `_posts` and make a file called `YYYY-MM-DD-title-like-this.markdown` (so on March 5, 2017, to create "I Like Pizza" it would be `2017-03-05-i-like-pizza.markdown`.) The metadata will look like this:
+<pre>
+---
+layout: post
+title:  "Title Like This"
+date:   YYYY-MM-DD HH:MM:SS -0500
+categories: categories seperated by spaces
+author: youralias
+---
+</pre>
+or for the example:
+<pre>
+---
+layout: post
+title: "I Like Pizza"
+date: 2017-03-05 19:06:51 -0500
+categories: pizza food greatness
+author: george42
+---
+</pre>
+Below that, get writing!
