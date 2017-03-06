@@ -17,7 +17,7 @@ george42:
         name: George
         alias: george42
 </pre>
-Notice that the top line and the alias are the same. <i>That's important.</i> Also, make sure to indent.
+Notice that the top line and the alias are the same. <i>That's important.</i> Also, make sure to indent.  
 ## Making your profile
 Next, you need to create a profile page. Create a file in the `profile` folder called `george42.html` (with george42 replaced by your alias.) Inside, add some metadata. If you were George, you would write:
 <pre>
@@ -27,7 +27,7 @@ permalink: /profile/george42
 profile: george42
 ---
 </pre>
-You would replace any `george42` with your alias. Below that write profile information, such as `42 is the answer to life, the universe, and 21*2`. Now, you can start writing!
+You would replace any `george42` with your alias. Below that write profile information, such as `42 is the answer to life, the universe, and 21*2`. Now, you can start writing!  
 ## Writing
 To create a post, go to the folder `_posts` and make a file called `YYYY-MM-DD-title-like-this.markdown` (so on March 5, 2017, to create "I Like Pizza" it would be `2017-03-05-i-like-pizza.markdown`.) The metadata will look like this:
 <pre>
