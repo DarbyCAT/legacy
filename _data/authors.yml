@@ -7,3 +7,6 @@ jm8: #this
 testuser:
     name: testuser
     alias: testuser
+lameman2000:
+    name: Person
+    alias: lameman2000
