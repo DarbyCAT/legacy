@@ -2,7 +2,7 @@
 ## Editing
 If you have access, just commit to the master. If you don't, make a pull request and we'll merge it after we aprove it.
 
-No ideas what that means? Go to GitHub's (https://guides.github.com/activities/hello-world/)[guide] or look up GitHub.
+No ideas what that means? Go to GitHub's <a href="https://guides.github.com/activities/hello-world/">guide</a> or look up GitHub.
 ## Jekyll
 Jekyll is a static site genorator, and it's used for this website. You don't really have to install it or learn it, but if you want to:
 [http://jekyllrb.com/docs/home/](link.)
