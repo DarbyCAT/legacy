@@ -1,13 +1,16 @@
 <b>If you ever need any help, feel free to add an issue.</b>
 # How to write pages for DarbyCAT.github.io
-## Editing—Using GitHub
+## Using GitHub—Part One
 ### Step One: Make a GitHub account
-Go to [https://github.com] and sign up for an account.
+Go to [https://github.com](github.com) and sign up for an account.
 ### Step Two: Installing Git
 Go [https://git-scm.com/book/en/v2/Getting-Started-Installing-Git](here) and follow the instructions.
 
-If you want a GUI, we reccomend [https://desktop.github.com](GitHub desktop) for Mac and Windows, but there are more (https://git-scm.com/downloads/guis)[here.]
-### Step Three: 
+If you want a GUI (which is strongly reccomended), we reccomend (and will use in the turorial) [https://desktop.github.com](GitHub desktop) for Mac and Windows, but there are more (https://git-scm.com/downloads/guis)[here.] If you already know how to use GitHub, you don't have to do this, and if you don't have Mac or Windows, we can help you.
+### Step Three: Clone DarbyCAT
+Scroll up and click on "Clone or Download". Then, click Open in Desktop and select where to put you're clone.
+### Step Four: Edit The Files
+Now, you read the other sections.
 ## Jekyll
 Jekyll is a static site genorator, and it's used for this website. You don't really have to install it, but if you want to:
 [http://jekyllrb.com/](link.)
@@ -55,4 +58,8 @@ author: george42
 ---
 </pre>
 Below that, get writing!
-<b>If you ever need any help, feel free to add an issue.</b>
+## Using GitHub—Part 2
+### Step Five: Commiting your changes
+Go back to GitHub Desktop and go to the "# Uncomitted Changes" tab. Now click the new branch button. <img src="branch-icon.png"> Give it a descriptive name, like `approval-post`, or something, that <b>relates to what you are adding.</b> A text box should pop up and you can make a descriptive summaray, like `Added a post saying we were approved`, and, if you want, an extanded description. Click "commit to (your-branch).
+### Step Six: Making a pull request (when you are ready to publish changes)
+Click "Pull Request" in the top right. Give it a nice title and description, and "click send pull request." If a big scary error message pops up, click Sync a little to the left. Then, when the president approves it, it will be added to the site.
