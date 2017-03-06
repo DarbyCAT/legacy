@@ -13,9 +13,9 @@ name is your first name, with proper capitalization, like `George`<br>
 alias is your username, like `george42`<br>
 If those were the values, it would look like this:
 <pre>
-        george42:
-                name: George
-                alias: george42
+    george42:
+            name: George
+            alias: george42
 </pre>
 Notice that the top line and the alias are the same. That's important. Also, make sure to indent.  
 <h2>Making your profile</h2>
