@@ -1,3 +1,4 @@
+<b>If you ever need any help, feel free to add an issue.</b>
 # How to write pages for DarbyCAT.github.io
 ## Editing
 If you have access, just commit to the master. If you don't, make a pull request and we'll merge it after we aprove it.
@@ -50,3 +51,4 @@ author: george42
 ---
 </pre>
 Below that, get writing!
+<b>If you ever need any help, feel free to add an issue.</b>
