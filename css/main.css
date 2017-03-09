@@ -87,7 +87,7 @@ html{
     position: absolute;
     width: 100%;
     bottom: 0;
-    margin: 0 atuo;
+    margin: 0 auto;
     position: relative;
     margin-top: -150px; /* negative value of footer height */
     height: 170px;
@@ -115,7 +115,7 @@ html{
     padding-bottom: 10px;
     vertical-align: top;
     text-align: left;
-    border-left: 2px solid #48ad3e;
+    border-left: 2px solid #54ed5a;
     padding-left:5px;
     margin-left: 20px;
 }
@@ -127,4 +127,62 @@ html{
 h1{
     padding-bottom: 0;
     margin-bottom: 0;
+}
+
+#newpost-button {
+    background-color:#54ed5a;
+    color:#276d29;
+    text-decoration: none;
+    padding: 5px 10px;
+    float: right;
+}
+#newpost-button:visited {
+    color:#276d29;
+}
+
+#github-logout-warning {
+    color: #F9924D;
+    border: 3px solid #F9924D;
+    padding: 10px 50px 10px 10px;
+    white-space: nowrap;
+    margin-bottom: 5px;
+}
+
+#blog-post-form input[type=text], textarea {
+    font-family: 'Arvo', serif;
+    font-size: 100%;
+    background-color: #1f1f1f;
+    box-shadow: 0 0 0 1px #333;
+    color: #48ad3e;
+    border: 0px;
+    padding: 0 3px;
+    width: 30%; 
+}
+#blog-post-form input[type=submit] {
+    font-family: 'Arvo', serif;
+    font-size: 100%;
+    color: #1f1f1f;
+    background-color: #48ad3e;
+
+    padding: 0 3px;
+    width: 600px; 
+    max-width: 100%;
+    border: 0px;
+}
+
+#blog-post-form #submit-container {
+    text-align: center;
+}
+
+#blog-post-form .aligned-label {
+    display:inline-block;
+    width:9em;
+    text-align: right;
+    padding-right: 3px;
+}
+
+#blog-post-form textarea {
+    width: 100%;
+    min-height: 30em;
+    resize: vertical;
 }
