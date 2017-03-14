@@ -8,7 +8,7 @@ layout: default
     {% for post in site.posts %}
             {% assign author = site.data.authors[post.author] %}
 
-             {% if author.alias == {{page.profile}} %}
+             {% if author.alias == page.profile %}
 
         <div>
 

@@ -1,0 +1,65 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Create New Post</h1>
+
+  <div id="github-logout-warning" style="display: none;">
+    <span style="font-size: 200%; float: left; padding-right: 10px">!</span>
+    <strong>You are not logged in to GitHub.</strong><br>
+    You will need to <a href="https://github.com/login" target="_blank">log in</a> or <a href="https://github.com/join" target="_blank">sign up</a> in order to post.<br>
+    <span style="font-size: 70%">(Ignore this warning if you have an ad blocker or similar extension blocking us from seeing you're logged in.)</span>
+  </div>
+
+  <div id="blog-post-form">
+    <form name="postdetails" action="#" onsubmit="return form_submitted()">
+      <label for="posttitle" class="aligned-label">Post title:</label><input type="text" name="posttitle" id="posttitle"><br>
+      <label for="postalias" class="aligned-label">Author's alias:</label><input type="text" name="postalias" id="postalias"><br>
+      <label for="postcategories" class="aligned-label">Post categories:</label><input type="text" name="postcategories" id="postcategories"> <span style="font-size: 70%">(Use spaces to separate)</span><br>
+      <label for="postcontent"><span style="font-size: 70%">(Posts here use Markdown syntax for formatting. See the <a href="https://guides.github.com/features/mastering-markdown/" target="_blank">guide</a>.)</span><br>
+        <textarea name="postcontent" id="postcontent"></textarea>
+        <div id=submit-container> 
+          <input type="submit" value="Submit Post" />
+        </div>
+    </form>
+    If you are not a member of DarbyCAT on GitHub, you will have to make a pull request in this process. Just click through all the green buttons.
+  </div>
+  
+</div>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.14.1/moment-with-locales.min.js"></script>
+<script>
+function github_detect() {
+  var img = document.createElement('img');
+  img.src = 'https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ffavicon.ico%3Fid%3D1';
+  img.onerror = function() {
+    document.getElementById('github-logout-warning').style.display = 'inline-block';
+  };
+}
+github_detect();
+
+
+function form_submitted() {
+  var postdata = '---\nlayout: post\ntitle: ';
+  postdata += JSON.stringify(document.getElementById('posttitle').value);
+  postdata += '\ndate: ';
+  postdata += moment(new Date()).format('YYYY-MM-DD HH:mm:ss ZZ');
+  postdata += '\ncategories: ';
+  postdata += document.getElementById('postcategories').value;
+  postdata += '\nauthor: ';
+  postdata += document.getElementById('postalias').value;
+  postdata += '\n---\n';
+  postdata += document.getElementById('postcontent').value;
+
+  var filename = '_posts/' + moment(new Date()).format('YYYY-MM-DD-') + document.getElementById('posttitle').value.replace(/[^a-zA-Z0-9]/g, '-') + ".markdown";
+  var message = 'Create new post: "' + document.getElementById('posttitle').value.replace(/[^a-zA-Z0-9]/g, '-') + '"';
+  var description = '\n\nCommited using the New Post tool on the website.';
+  var url = 'https://github.com/darbycat/darbycat.github.io/new/master?filename=' + encodeURIComponent(filename) + '&value=' + encodeURIComponent(postdata) + '&message='  + encodeURIComponent(message) + '&description=' + encodeURIComponent(description);
+  window.open(url);
+
+  // stops the page from reloading afterwards
+  return false;
+}
+</script>
