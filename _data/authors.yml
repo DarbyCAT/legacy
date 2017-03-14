@@ -13,3 +13,6 @@ lameman2000:
 epicstormcloud:
     name: Christopher
     alias: epicstormcloud
+testuser:
+    Name: Test User
+    alias: testuser
