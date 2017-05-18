@@ -15,4 +15,4 @@ Navigate to wherever you want your clone folder (basically the website).<br><br>
 <b>Make Changes</b><br>
 Change whatever you want in the folder.<br><br>
 <b>Commit to Put It Online</b><br>
-Add a <i>helpful</i> description and click commit.
+Add a <i>helpful</i> description and click commit and then sync.
