@@ -19,7 +19,7 @@
     background-color: #222;
     padding: 20px;
     font-family: 'PT Sans Narrow', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     color: #54ed5a;
     margin: 0 auto;
     padding-bottom: 170px; 
@@ -80,7 +80,7 @@ html{
 #wrap {min-height: 100%; max-width: 100%;}
 
 .footer{
-    font-size: 12px;
+    font-size: 15px;
     display: block;
     color: #ccc;
     background-color: #333;
