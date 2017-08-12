@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Testing Post"
+title: "Tester Post"
 date: 2017-08-12 16:01:15 -0400
 categories: @ #
 author: lameman2000
