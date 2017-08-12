@@ -1,8 +1,0 @@
----
-layout: post
-title: "Tester Post"
-date: 2017-08-12 16:01:15 -0400
-categories: Test
-author: lameman2000
----
-**bold** *italic*
