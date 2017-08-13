@@ -5,8 +5,8 @@ jm8: #this
     name: Josh
     alias: jm8 #must be the same as this
 testuser:
-    name: testuser
-    alias: testuser
+    name: testusername
+    alias: testuseralias
 lameman2000:
     name: test
     alias: lameman2000
