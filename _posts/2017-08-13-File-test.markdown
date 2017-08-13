@@ -1,0 +1,9 @@
+---
+layout: post
+title: "File test"
+date: 2017-08-13 17:08:39 -0400
+categories: testing files
+author: lameman2000
+filename: /files/t.zip
+---
+Test
