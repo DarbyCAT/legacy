@@ -51,8 +51,8 @@ function form_submitted() {
   postdata += document.getElementById('postcategories').value;
   postdata += '\nauthor: ';
   postdata += document.getElementById('postalias').value;
-  postdata += '\filename: ';
-  postdata += document.getElementById('postfile').value;
+  postdata += '\nfilename: ';
+  postdata += "/files/" + document.getElementById('postfile').value;
   postdata += '\n---\n';
   postdata += document.getElementById('postcontent').value;
 
