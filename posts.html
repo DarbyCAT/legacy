@@ -4,12 +4,12 @@ layout: default
 
 <div class="home">
 
-  <a href="/newpost.html" id="newpost-button" button onclick="password()">+ New Post</a>
+  <id="newpost-button" button onclick="password()">+ New Post</a>
   <script>
     function password() {
     var pass = prompt("Please enter posting password:", "");
       if (pass == "qwertyuiop") {
-          alert("passed");
+          window.location = "https://darbycat.github.io/newpost.html";
       }
     }
   </script>
