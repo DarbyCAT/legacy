@@ -4,7 +4,15 @@ layout: default
 
 <div class="home">
 
-  <a href="/newpost.html" id="newpost-button">+ New Post</a>
+  <a href="/newpost.html" id="newpost-button" button onclick="password()">+ New Post</a>
+  <script>
+    function password() {
+    var pass = prompt("Please enter posting password:", "");
+      if (pass == "qwertyuiop") {
+          alert("passed");
+      }
+    }
+  </script>
   <h1 class="page-heading">Posts</h1>
   <br>
   <div class="boxes-container">
