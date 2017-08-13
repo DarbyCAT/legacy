@@ -18,7 +18,7 @@
     height: 100%;
     background-color: #222;
     padding: 20px;
-    font-family: 'Share Tech Mono', monospace;
+    font-family: 'Share Tech', monospace;
     font-size: 20px;
     color: #54ed5a;
     margin: 0 auto;
@@ -71,7 +71,7 @@
 body{
     margin:0;
     background-color: #222;//#276d29;
-    font-family: 'Share Tech Mono', monospace;
+    font-family: 'Share Tech', monospace;
     height: 100%;
 }
 html{
@@ -149,7 +149,7 @@ h1{
 }
 
 #blog-post-form input[type=text], textarea {
-    font-family: 'Share Tech Mono', monospace;
+    font-family: 'Share Tech', monospace;
     font-size: 100%;
     background-color: #1f1f1f;
     box-shadow: 0 0 0 1px #333;
@@ -159,7 +159,7 @@ h1{
     width: 30%; 
 }
 #blog-post-form input[type=submit] {
-    font-family: 'Share Tech Mono', monospace;
+    font-family: 'Share Tech', monospace;
     font-size: 100%;
     color: #1f1f1f;
     background-color: #48ad3e;
