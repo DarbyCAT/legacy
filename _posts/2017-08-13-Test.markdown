@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Test"
+date: 2017-08-13 15:41:47 -0400
+categories: test
+author: lameman2000
+---
+This is a test <br/>
+<a href="/files/t.zip" download>lesson files</a>

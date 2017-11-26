@@ -6,7 +6,7 @@ Go to [https://github.com](github.com) and sign up for an account.
 ### Step Two: Installing Git
 Go [https://git-scm.com/book/en/v2/Getting-Started-Installing-Git](here) and follow the instructions.
 
-If you want a GUI (which is strongly reccomended), we reccomend (and will use in the turorial) [https://desktop.github.com](GitHub desktop) for Mac and Windows, but there are more (https://git-scm.com/downloads/guis)[here.] If you already know how to use GitHub, you don't have to do this, and if you don't have Mac or Windows, we can help you.
+If you want a GUI (which is strongly reccomended), we reccomend (and will use in the turorial) [https://desktop.github.com](GitHub desktop) for Mac and Windows, but there are more [https://git-scm.com/downloads/guis](here). If you already know how to use GitHub, you don't have to do this, and if you don't have Mac or Windows, we can help you.
 ### Step Three: Clone DarbyCAT
 Scroll up and click on "Clone or Download". Then, click Open in Desktop and select where to put you're clone.
 ### Step Four: Edit The Files
