@@ -21,7 +21,7 @@ layout: default
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> {% if author %}
     <span>
         <!-- Personal Info. -->
-        • <a href="/profile/{{author.alias}}.html" target="_blank">{{ author.name }} ({{ author.alias }})</a>
+        • <a href="{{ author.profilelink }}" target="_blank">{{ author.name }} ({{ author.alias }})</a>
     </span>
 {% endif %}
         </i>

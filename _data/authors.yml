@@ -4,12 +4,16 @@
 jm8: #this
     name: Josh
     alias: jm8 #must be the same as this
+    profilelink: /profile/jm8.html
 testuser:
     name: testusername
     alias: testuseralias
+    profilelink: https://www.example.com
 lameman2000:
     name: test
     alias: lameman2000
+    profilelink: /profile/lameman2000.html
 epicstormcloud:
     name: Christopher
     alias: epicstormcloud
+    profilelink: /profile/epicstormcloud.html
