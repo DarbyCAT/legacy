@@ -6,8 +6,8 @@ jm8: #this
     alias: jm8 #must be the same as this
     profilelink: /profile/jm8.html
 testuser:
-    name: testusername
-    alias: testuseralias
+    name: Bob
+    alias: testuser
     profilelink: https://www.example.com
 lameman2000:
     name: test
