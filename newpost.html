@@ -52,7 +52,7 @@ function form_submitted() {
   postdata += '\nauthor: ';
   postdata += document.getElementById('postalias').value;
   postdata += '\nfilename: ';
-  postdata += "/files/" + document.getElementById('postfile').value;
+  postdata += document.getElementById('postfile').value;
   postdata += '\n---\n';
   postdata += document.getElementById('postcontent').value;
 
