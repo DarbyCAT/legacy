@@ -19,6 +19,11 @@ If you'd like to quote someone, use the > character before the line:
 > Coffee. The finest organic suspension ever devised... I beat the Borg with it.
 > - Captain Janeway
 
-###MathJax test:
+### MathJax test:
 
 <span>\\(x = {-b \pm \sqrt{b^2-4ac} \over 2a}\\)</span>
+This is some inline <span>\\(\sum_{x=0}^x=4 x\\)</span> for loops yea
+
+{% highlight bash %}
+cd ~
+{% endhighlight %}
