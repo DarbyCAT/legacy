@@ -21,4 +21,4 @@ If you'd like to quote someone, use the > character before the line:
 
 ###MathJax test:
 
-<span>\(x = {-b \pm \sqrt{b^2-4ac} \over 2a}\)</span>
+<span>\\(x = {-b \pm \sqrt{b^2-4ac} \over 2a}\\)</span>
