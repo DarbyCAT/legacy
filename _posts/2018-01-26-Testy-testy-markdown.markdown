@@ -18,3 +18,6 @@ If you'd like to quote someone, use the > character before the line:
 
 > Coffee. The finest organic suspension ever devised... I beat the Borg with it.
 > - Captain Janeway
+
+###MathJax test:
+\(x = {-b \pm \sqrt{b^2-4ac} \over 2a}\)
