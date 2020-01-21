@@ -10,7 +10,7 @@ title: Darby CAT Club
 email: jm8hjkl@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   It's a club about Computer and Technology.
-baseurl: "/legacy" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://darbycat.github.io/legacy/" # the base hostname & protocol for your site
 twitter_username: no
 github_username:  jm8
